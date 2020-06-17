@@ -1,0 +1,35 @@
+h1{
+    background-color: blue
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+
+}
+li a{
+  float: left;
+  display: block;
+  border: 2px solid white;
+  color: red;
+  margin: 0;
+  box-sizing: content-box;
+  text-decoration: none;
+  padding: 15px 15px;
+}
+body{
+  background-color: pink;
+}
+.righty{
+float: right;
+}
+li a:hover{
+  background-color: red;
+  color: white;
+}
+.active{
+  background-color: red;
+  color: white;
+}
